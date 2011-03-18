@@ -25,6 +25,10 @@ NOTE:
    in your FTP application.
 
 -----------------------------------------------------------
+This fork is NOT affiliated with Shaun Inman. Please do not
+contact him for support. It adds iOS web app support, and a
+button for Twitterrific on iOS.
+-----------------------------------------------------------
 
 Updating from 1.0.1
 
@@ -50,6 +54,12 @@ Updating to 1.0.6 from 1.0.5
    archive (only LESSN_VERSION changed).
 2. In /index.php replace line 9 with lines 9-10 from the 
    updated version in this archive.
+
+-----------------------------------------------------------
+
+Updating to 1.0.7 from 1.0.6
+
+1. Replace all files EXCEPT /-/config.php.
 
 -----------------------------------------------------------
 Lessn is offered as-is, sans support and without warranty.

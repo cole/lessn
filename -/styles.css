@@ -1,0 +1,243 @@
+body
+{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	margin: 32px 0 0;
+	padding: 0;
+	color: #333;
+	background-color: #eee;
+}
+
+a,button
+{
+	display: inline-block;
+	border: none;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 10px;
+	line-height: 16px;
+	height: 16px;
+	padding: 0 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	
+	color: #fff;
+	background-color: #333;
+}
+input
+{
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: none;
+	padding: 4px;
+}
+
+input#url 
+{
+    width: 35em;
+}
+
+input#redirect-url
+{
+    width: 18em;
+}
+
+span {
+    color: #999;
+}
+
+span.api
+{
+	display: block;
+	margin: 16px 0 0;
+	font-size: 9px;
+}
+span.api code
+{
+	font-size: 10px;
+}
+
+.ios-links 
+{
+    display: none;
+}
+
+/* iPad portrait */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
+{
+    body
+    {
+        font-size: 1.2em;
+        margin: 128px 64px;
+    }
+    
+    input
+    {
+        height: 37px;
+    }
+    
+    input#url
+    {
+        width: 600px;
+    }
+    
+    a, button, .ios-links
+    {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 21px;
+        vertical-align: middle;
+    	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+    	padding: 8px 10px;
+    	margin: 15px 12px 5px 12px;
+    }
+    
+    button 
+    {
+        height: 37px;
+    }
+
+    .non-ios
+    {
+        display: none;
+    }
+}
+
+/* iPad landscape */
+@media only screen and (max-device-width: 1024px) and (orientation:landscape)
+{
+    body
+    {
+        font-size: 1.2em;
+        margin: 64px 128px;
+    }
+    
+    input
+    {
+        height: 37px;
+    }
+    
+    input#url
+    {
+        width: 900px;
+    }
+    
+    a, button, .ios-links
+    {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 21px;
+        vertical-align: middle;
+    	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+    	padding: 8px 10px;
+    	margin: 15px 12px 5px 12px;
+    }
+    
+    button 
+    {
+        height: 37px;
+    }
+    
+    .non-ios
+    {
+        display: none;
+    }
+}
+
+/* iPhone landscape */
+@media screen and (min-width: 321px) and (max-width: 480px)
+{
+    body
+    {
+        margin: 32px;
+    }
+    
+    input
+    {
+        height: 37px;
+    }
+    
+    input#url
+    {
+        width: 440px;
+    }
+    
+    a, button, .ios-links
+    {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 21px;
+        vertical-align: middle;
+    	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+    	padding: 8px 10px;
+    	margin: 15px 12px 5px 12px;
+    }
+    
+    button 
+    {
+        height: 37px;
+    }
+    
+    .non-ios
+    {
+        display: none;
+    }
+}
+
+/* iPhone portrait */
+@media screen and (max-width: 320px)
+{
+    body
+    {
+        margin: 32px;
+    }
+    
+    input
+    {
+        height: 37px;
+    }
+    
+    input#url
+    {
+        width: 260px;
+    }
+    
+    a, button, .ios-links
+    {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 21px;
+        vertical-align: middle;
+    	-webkit-border-radius: 10px;
+    	-moz-border-radius: 10px;
+    	border-radius: 10px;
+    	padding: 8px 10px;
+    	margin: 15px 12px 5px 12px;
+    }
+    
+    button 
+    {
+        height: 37px;
+    }
+    
+    .non-ios
+    {
+        display: none;
+    }
+}

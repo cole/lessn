@@ -1,6 +1,6 @@
 <?php include('stubs/header.php'); ?>
 <form method="get">
-	<input type="text" id="url" name="url" placeholder="url" autocapitalize="off" autocorrect="off" /><br/>
+	<input type="text" id="url" name="url" placeholder="url" autocapitalize="off" autocorrect="off" />
 	<button>Lessn</button> 
 	
 	<p class="non-ios">Grab the <a 

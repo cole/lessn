@@ -1,6 +1,6 @@
 <?php include('stubs/header.php'); ?>
 <p>
-    <input id="redirect-url" readonly="readonly" value="<?php echo htmlspecialchars($new_url); ?>" />
+    <input id="redirect-url" value="<?php echo htmlspecialchars($new_url); ?>" />
 	→ <span><?php echo htmlspecialchars($url); ?></span>
 </p>
 <p>
@@ -15,6 +15,7 @@ input.onclick = function(){
     if (navigator.appVersion.indexOf('iPhone OS ') < 0 && navigator.appVersion.indexOf('iPad') < 0)
 	{   
 	    input.select();
+	    input.readOnly = true;
     }
 };
 </script>

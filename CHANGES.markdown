@@ -1,6 +1,6 @@
 ### 1.0.7 ###
 - added iOS web app elements and styles (touch icon, favicon, hidden non applicable elements, and larger touch targets)
-- moved readonly attribute on done page to only be set for non-iOS (under iOS it disables selection for some reason). @splorp's idea: twitter.com/splorp/status/48750961610604546
+- moved readonly attribute on done page to only be set for non-iOS (under iOS it disables selection for some reason). [@splorp's idea.](http://twitter.com/splorp/status/48750961610604546)
 - updated README and CHANGES, converted them to markdown for github readability
 
 -----------------------------------------------------------
